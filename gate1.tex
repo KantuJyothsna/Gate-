@@ -1,0 +1,18 @@
+\documentclass[tikz]{standalone}
+\usepackage[left=1in, right=0.75in, top=1in, bottom=0.75in]{geometry}
+\usepackage{relsize}
+\usetikzlibrary{decorations.pathreplacing,backgrounds}
+\usepackage{circuitikz}
+\begin{document}
+\begin{enumerate}
+\item The propagation delay of the exclusive- OR(XOR) gate in the circuit in the figure is 3 ns. The propagation delay of all the flip-flops is assumed to be zero. The Clock(clk) frequency provided to the circuit is 500 MHz.
+\end{enumerate}
+\hfill(GATE-EC2021,46)
+\begin{figure}
+    \centering
+    \input{figs/fig.tex}
+    \caption{Caption}
+    \label{fig:enter-label}
+\end{figure}
+Starting from the initial value of the flip-flop outputs $Q2Q1Q0 =1 1 1$ with $D2=1$,the minimum number of triggering clock edges after which the flip-flop outputs $Q2Q1Q0$ becomes 1 0 0\emph (in integer) is \line(10,0){15}
+\end{document}           
